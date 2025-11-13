@@ -2,7 +2,7 @@
 
 A small but polished **Swift command-line app** that lets you create, list, search, and delete notes with tags.
 
-Great for your GitHub to showcase:
+My project showcases:
 
 - **Swift** (outside of iOS UI)
 - **Swift Package Manager** (SPM)
@@ -97,22 +97,3 @@ swift run notetagger delete 1
 ```
 
 Notes are stored in `notes.json` in the current working directory.
-
----
-
-## 🌟 Why this is a good portfolio project
-
-This repo shows that you can:
-
-- Use **Swift beyond iOS GUIs**
-- Structure a **SwiftPM executable package**
-- Do JSON persistence with `Codable`
-- Design a practical and clean **CLI UX**
-- Work with dates, tags, and search logic
-
-You can extend it later with:
-
-- Richer search (by tag + text)
-- Colored terminal output (using a library)
-- Encryption for the notes file
-- Export to Markdown
